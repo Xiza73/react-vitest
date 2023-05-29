@@ -1,0 +1,12 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Tests on <ListItem /> > should show the snapshot 1`] = `
+<div>
+  <article>
+    <img
+      alt="One Punch Man"
+      src="https://media4.giphy.com/media/VXJWhaO7afRe/giphy.gif?cid=cbc864d562njk1yjdf11bs5adtruz31d04dgw2r9md92ug43&rid=giphy.gif&ct=g"
+    />
+  </article>
+</div>
+`;

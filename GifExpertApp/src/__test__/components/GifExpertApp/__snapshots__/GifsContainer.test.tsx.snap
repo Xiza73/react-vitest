@@ -1,0 +1,13 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Tests on <GifsContainer /> > should match the snapshot 1`] = `
+<div>
+  <h2>
+    One Punch
+  </h2>
+  <ol />
+  <p>
+    Loading...
+  </p>
+</div>
+`;

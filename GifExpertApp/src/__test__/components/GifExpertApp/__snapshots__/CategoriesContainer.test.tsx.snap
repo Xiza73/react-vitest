@@ -1,0 +1,26 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Tests on <CategoriesContainer /> > should match the snapshot 1`] = `
+<div>
+  <ol>
+    <li>
+      <h2>
+        One Punch
+      </h2>
+      <ol />
+      <p>
+        Loading...
+      </p>
+    </li>
+    <li>
+      <h2>
+        Dragon Ball
+      </h2>
+      <ol />
+      <p>
+        Loading...
+      </p>
+    </li>
+  </ol>
+</div>
+`;

@@ -1,0 +1,42 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Tests on <GifExpertApp /> > should match the snapshot 1`] = `
+<div>
+  <main>
+    <h1>
+      GifExpertApp
+    </h1>
+    <div />
+    <div>
+      <input
+        class="undefined"
+        placeholder="Buscar gifs..."
+        value=""
+      />
+      <button>
+        Agregar
+      </button>
+    </div>
+    <ol>
+      <li>
+        <h2>
+          One Punch
+        </h2>
+        <ol />
+        <p>
+          Loading...
+        </p>
+      </li>
+      <li>
+        <h2>
+          Dragon Ball
+        </h2>
+        <ol />
+        <p>
+          Loading...
+        </p>
+      </li>
+    </ol>
+  </main>
+</div>
+`;
