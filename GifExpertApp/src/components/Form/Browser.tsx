@@ -19,7 +19,7 @@ export const Browser: React.FC<BrowserProps> = ({
     e.key === "Enter" && onSubmit();
 
   return (
-    <div>
+    <div className="w-full lg:w-1/2 flex items-center justify-center gap-3 mb-5">
       <Input
         value={value}
         onChange={onChange}

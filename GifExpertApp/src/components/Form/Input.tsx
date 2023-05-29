@@ -9,5 +9,10 @@ export interface InputProps {
 }
 
 export const Input: React.FC<InputProps> = ({ className, ...props }) => {
-  return <input className={`${className}`} {...props} />;
+  return (
+    <input
+      className={`p-2 border-2 border-gray-300 rounded-md grow ${className}`}
+      {...props}
+    />
+  );
 };

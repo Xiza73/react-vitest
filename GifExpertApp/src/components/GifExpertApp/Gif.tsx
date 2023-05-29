@@ -5,8 +5,8 @@ export interface GifProps {
 
 export const Gif: React.FC<GifProps> = ({ url, title }) => {
   return (
-    <article>
-      <img src={url} alt={title} />
+    <article className="flex items-center justify-center">
+      <img src={url} alt={title} className="w-full rounded-md" />
     </article>
   );
 };

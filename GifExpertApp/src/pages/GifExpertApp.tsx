@@ -1,4 +1,5 @@
 import { Browser, CategoriesContainer } from "@/components";
+import { Separator } from "@/components/Separator";
 import { useState } from "react";
 
 const initialCategories = ["One Punch", "Dragon Ball"];
@@ -21,9 +22,11 @@ export const GifExpertApp: React.FC = () => {
   };
 
   return (
-    <main>
-      <h1>GifExpertApp</h1>
-      <div></div>
+    <main className="w-full flex flex-col items-center justify-center p-4">
+      <h1 className="text-4xl font-bold text-center text-gray-800">
+        GifExpertApp
+      </h1>
+      <Separator className="lg:w-1/2" />
       <Browser
         buttonText="Agregar"
         onChange={(e) => setBrowserValue(e.target.value)}
